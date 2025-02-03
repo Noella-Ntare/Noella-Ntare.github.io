@@ -42,15 +42,3 @@ function clearChat() {
     let chatContent = document.getElementById("chatContent");
     chatContent.innerHTML = "";
 }
-
-// Show the "About Us" section
-function showAboutUs() {
-    document.getElementById("aboutUsSection").style.display = "block";
-    document.getElementById("servicesSection").style.display = "none";
-}
-
-// Show the "Services" section
-function showServices() {
-    document.getElementById("aboutUsSection").style.display = "none";
-    document.getElementById("servicesSection").style.display = "block";
-}
